@@ -5,9 +5,7 @@
  ------------------------------------
  ====================================*/
 
-
 /*----------------------------------------*/
-
 
 /* Template default CSS
 /*----------------------------------------*/
@@ -84,7 +82,6 @@ ol {
     margin: 0;
 }
 
-
 /*---------------------
 Helper CSS
  -----------------------*/
@@ -121,7 +118,6 @@ Helper CSS
     color: #fff;
 }
 
-
 /*---------------------
 Commom elements
  -----------------------*/
@@ -142,7 +138,6 @@ Commom elements
 .element .container {
     margin-left: -15px;
 }
-
 
 /* buttons */
 
@@ -182,7 +177,6 @@ Commom elements
 .site-btn.sb-dark {
     border-color: #242424;
 }
-
 
 /* Preloder */
 
@@ -247,7 +241,6 @@ Commom elements
         border-left-color: transparent;
     }
 }
-
 
 /* Accordion */
 
@@ -322,7 +315,6 @@ Commom elements
     padding: 0 5px;
 }
 
-
 /* Tab */
 
 .tab-element .nav-tabs {
@@ -364,7 +356,6 @@ Commom elements
 .tab-element .tab-pane p {
     margin-bottom: 0;
 }
-
 
 /* circle progress  */
 
@@ -417,7 +408,6 @@ Commom elements
     color: #828282;
 }
 
-
 /* Icons box  */
 
 .icon-box {
@@ -439,7 +429,6 @@ Commom elements
     padding-top: 5px;
     overflow: hidden;
 }
-
 
 /*------------------
 Main Site warp
@@ -557,7 +546,6 @@ body.push-side #ascrail2000-hr {
     margin-bottom: 20px;
 }
 
-
 /* Header section */
 
 .header-section {
@@ -608,7 +596,6 @@ body.push-side #ascrail2000-hr {
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
 }
-
 
 /* Left Side section */
 
@@ -713,7 +700,6 @@ body.push-side #ascrail2000-hr {
     color: rgba(204, 17, 17, 0.29);
 }
 
-
 /*------------------
 Hero section
  ---------------------*/
@@ -754,7 +740,6 @@ Hero section
     overflow: hidden;
 }
 
-
 /* --------------
  =================
 Other pages
@@ -764,7 +749,6 @@ Other pages
 .page-section {
     height: 100%;
 }
-
 
 /* ----------------
 About Page
@@ -834,7 +818,6 @@ About Page
 .milestone .milestone-info p {
     margin-bottom: 0;
 }
-
 
 /* ----------------
 Blog page
@@ -978,7 +961,6 @@ Blog page
     text-decoration: underline;
 }
 
-
 /* ----------------
 Portfolio page
  ---------------------*/
@@ -1016,7 +998,6 @@ Portfolio page
 .portfolio-item .pi-info img {
     min-width: auto;
 }
-
 
 /* ----------------
 Contact page
@@ -1081,7 +1062,6 @@ Contact page
     margin-bottom: 45px;
 }
 
-
 /* ----------------
 Responsive
  ---------------------*/
@@ -1112,7 +1092,6 @@ Responsive
         max-width: calc(100% - 550px);
     }
 }
-
 
 /* Medium screen : 992px. */
 
@@ -1163,7 +1142,6 @@ Responsive
         max-width: calc(100% - 450px);
     }
 }
-
 
 /* Tablet :768px. */
 
@@ -1218,7 +1196,6 @@ Responsive
         max-width: calc(100% - 50px);
     }
 }
-
 
 /* Large Mobile :480px. */
 
@@ -1334,7 +1311,6 @@ Responsive
         margin: 0 5px;
     }
 }
-
 
 /* Small Mobile :320px. */
 
