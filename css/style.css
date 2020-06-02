@@ -563,6 +563,13 @@ body.push-side #ascrail2000-hr {
     transition: all 0.4s;
 }
 
+.header-section .logo {
+    width: 200px;
+    height: 100px;
+    margin-left: 70px;
+    margin-top: -30px;
+}
+
 .nav-switch {
     float: left;
     font-size: 28px;
@@ -625,13 +632,14 @@ body.push-side #ascrail2000-hr {
     letter-spacing: 18px;
 }
 
-.site-logo p {
-    font-size: 12px;
+.about-info .des {
+    font-size: 9px;
     text-transform: uppercase;
     color: #aaaaaa;
-    letter-spacing: 12px;
-    padding-left: 10px;
-    margin-bottom: 0;
+    letter-spacing: 11px;
+    /* padding-left: 4px; */
+    margin-top: -25px;
+    margin-bottom: 50px;
 }
 
 .about-info {
@@ -647,9 +655,15 @@ body.push-side #ascrail2000-hr {
 }
 
 .site-logo img {
-    height: 200px;
-    margin-left: -5px;
-    margin-bottom: -40px;
+    height: 100px;
+    width: 200px;
+    margin-left: 5px;
+    transform: translate(-50px, -100px);
+    z-index: 1000;
+    /* margin-top: ; */
+
+    /* position: relative; */
+    /* margin-bottom: -40px; */
 }
 
 .contact-info {
@@ -1096,6 +1110,13 @@ Responsive
 /* Medium screen : 992px. */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .header-section .logo {
+        width: 100px;
+        height: 100px;
+        /* margin-left: 50px;
+        margin-top: -30px; */
+    }
+
     .main-sidebar,
     .copyright {
         width: 350px;
@@ -1146,6 +1167,14 @@ Responsive
 /* Tablet :768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-section .logo {
+        width: 200px;
+        height: 100px;
+    }
+    .mb-warp {
+        margin-top: -150px;
+    }
+
     .site-content-warp {
         padding-left: 0;
         height: auto;
@@ -1200,6 +1229,13 @@ Responsive
 /* Large Mobile :480px. */
 
 @media only screen and (max-width: 767px) {
+    .header-section .logo {
+        width: 200px;
+        height: 100px;
+        /* margin-left: 70px;
+        margin-top: -30px; */
+    }
+
     .site-content-warp {
         padding-left: 0;
         height: auto;
@@ -1315,6 +1351,21 @@ Responsive
 /* Small Mobile :320px. */
 
 @media only screen and (max-width: 479px) {
+    .header-section .logo {
+        width: 150px;
+        height: 80px;
+        transform: translate(-40px, 6px);
+        /* margin-left: 70px;
+        margin-top: -30px; */
+    }
+    .mb-warp {
+        transform: translate(0, -100px);
+    }
+
+    .about-info .des {
+        font-size: 7px;
+        letter-spacing: 9px;
+    }
     .site-logo {
         margin-bottom: 50px;
     }
