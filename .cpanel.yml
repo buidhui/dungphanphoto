@@ -1,0 +1,17 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/hhiqxqzohosting/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp about.html $DEPLOYPATH
+    - /bin/cp blog.html $DEPLOYPATH
+    - /bin/cp contact.html $DEPLOYPATH
+    - /bin/cp portfolio.html $DEPLOYPATH
+    - /bin/cp single-blog.html $DEPLOYPATH
+
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R gallery $DEPLOYPATH
+    - /bin/cp -R icon-fonts $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp -R Source $DEPLOYPATH
